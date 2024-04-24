@@ -1,0 +1,51 @@
+.cabecalho{
+    padding: 2% 10% 1% 15%;
+    }
+    
+    .cabecalho_marca{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    text-align: left;
+    margin: 0px 5px 20px 5px;
+    }
+    
+    .logo{
+    width: 10%;
+    height: 10%;
+    }
+    
+    .cabecalho_marca_nome{
+    margin-top: 3%;
+    width: 95%;
+    font-family: var(--font-primaria);
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--cor-terciaria);
+    }
+    
+    .cabecalho_menu{
+    display: flex;
+    gap: 50px;
+    margin-top: 4%;
+    }
+    
+    .cabecalho_menu_link{
+    font-family: var(--font-secundaria);
+    font-size: 1,5rem;
+    font-weight: 700;
+    color: var(--cir-terciaria);
+    text-decoration: none;
+    border: 2px solid var(--cor-terciaria);
+    padding: 18.5px 10px;
+    border-radius: 8px;
+
+    }
+    
+    .cabecalho_menu_link:hover{
+    background-color: var(---hover);
+    border-radius: 16px;
+    background-color: #466ba1;
+    color: #a3c1ec;
+    }
+    
